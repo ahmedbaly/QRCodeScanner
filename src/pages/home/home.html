@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+      <button ion-button outline color="primary" (click)="QRCodeScanner()" >SCAN</button>
+  </ion-navbar>
+</ion-header>
+
+<ion-content style="background-color: rgba(0,0,0,0.5); ">
+<!-- <ion-content> -->
+
+    <img src="assets/imgs/qrscanner.png" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />
+
+    <!-- <ion-card *ngIf="createdCode">
+      <ngx-qrcode [qrc-value]="createdCode"></ngx-qrcode>
+     <ion-card-content> -->
+        <p>Value: {{ createdCode }}</p>
+      <!-- </ion-card-content> 
+    </ion-card> -->
+   
+
+</ion-content>
